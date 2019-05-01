@@ -1,0 +1,119 @@
+#color {
+	 background-color: #2b2c2d;
+}
+
+.starter-template {
+	margin-top: 75px;
+}
+
+.text1 {
+	color:white;
+	font-size: 35px;
+	font-style: strong;
+	transition: 0.5s ease;
+	margin-bottom: 50px;
+	padding: 25px;
+	box-sizing: border-box;
+	border: 10px solid;
+	border-radius: 25px;
+}
+
+.text1:hover {
+	color: #F7CA18;
+	transform: translate( 20px, 10px);
+	cursor: default;
+}
+			
+.cte {
+	color:white;
+	font-size: 50px;
+	transition: 0.5s ease;
+	padding: 25px;
+}
+
+.cte:hover {
+	transform: translate(20px, 10px);
+	color: #DC3023;
+	cursor: default;
+	
+}
+
+.ang {
+	color:white;
+	font-size: 50px;
+	transition: 0.5s ease;
+	padding: 25px;
+}
+
+.ang:hover {
+	transform: translate(20px, 10px);
+	color: #9932CC;
+	cursor: default;
+}
+
+.wrr {
+	color:white;
+	font-size: 50px;
+	transition: 0.5s ease;
+	padding: 25px;
+}
+
+.wrr:hover {
+	transform: translate(20px, 10px);
+	color: #6495ED;
+	cursor: default;
+}
+
+.spr {
+	color:white;
+	font-size: 50px;
+	transition: 0.5s ease;
+	padding: 25px;
+}
+
+.spr:hover {
+	transform: translate(20px, 10px);
+	color: #26C281;
+	cursor: default;
+}
+
+.fat {
+	color:white;
+	font-size: 50px;
+	transition: 0.5s ease;
+	padding: 25px;
+}
+
+.fat:hover {
+	transform: translate(20px, 10px);
+	color: #F47983;
+	cursor: default;
+}
+
+.stn {
+	color:white;
+	font-size: 50px;
+	transition: 0.5s ease;
+	padding: 25px;
+}
+
+.stn:hover {
+	transform: translate(20px, 10px);
+	color: #ff9f43;
+	cursor: default;
+}
+li#list1 {
+	list-style-type: none; 
+}
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}

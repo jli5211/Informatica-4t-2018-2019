@@ -1,0 +1,40 @@
+#color {
+	 background-color: #2b2c2d;
+}
+
+img.im1 {
+		margin-top: 77.5px;
+		color: white;
+}
+	
+.im1 {
+    width: 200px;
+	height: 125px;
+    position: relative;
+    transition: 0.5s ease;
+	filter: grayscale(75%);
+    cursor: default;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.35), 0 6px 20px 0 rgba(0, 0, 0, 0.27);
+}
+
+.im1:hover {
+	filter: grayscale(0%);
+	transform: scale(1.5, 1.5 ) translate(0px, 0px);
+	box-shadow: 0 13px 14px 0 rgba(0, 0, 0, 0.35), 0 6px 20px 0 rgba(0, 0, 0, 0.27);
+}
+
+li#list1 {
+	list-style-type: none; 
+}
+
+.column {
+	float: left;
+	width: 25%;
+	padding: 10px;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}

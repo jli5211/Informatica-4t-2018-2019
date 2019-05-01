@@ -1,0 +1,130 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.png">
+
+    <title>Informàtica - Inici</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    
+    <!-- Custom styles for this template -->
+    <link href="css/style-idx.css" rel="stylesheet">
+
+	
+  </head>
+
+  <body id="color">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">Jialiang Li</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Inici</a></li>
+            <li><a href="musica.html">Música</a></li>
+            <li><a href="fotos.html">Fotos</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+	
+	<audio id="sound1">
+		<source src="sfx/laugh1.mp3"></source>
+	</audio>
+	<audio id="sound2">
+		<source src="sfx/laugh2.mp3"></source>
+	</audio>
+	<audio id="sound3">
+		<source src="sfx/laugh3.mp3"></source>
+	</audio>
+	<audio id="sound4">
+		<source src="sfx/laugh4.mp3"></source>
+	</audio>
+	<audio id="sound5">
+		<source src="sfx/laugh5.mp3"></source>
+	</audio>
+	<audio id="sound6">
+		<source src="sfx/laugh6.mp3"></source>
+	</audio>
+	<audio id="sound7">
+		<source src="sfx/swipe.mp3"></source>
+	</audio>
+	
+      <div class="starter-template">
+       <p class="text1" id="sfx7"><strong>Informàtica 4t ESO 2018-2019</strong></p>
+		<div class="row">
+			<div class="column">
+				<ul>
+					<p class="spr" id="sfx1">૮( ᵒ̌ૢཪᵒ̌ૢ )ა</p>
+					<p class="stn" id="sfx2">ᕦ( ò_óˇ)ᕤ</p>
+					<p class="wrr" id="sfx3">ᕙ( ⇀‸↼ )ᕗ</p>
+				<ul>
+			</div>
+			<div class="column">
+				<ul>
+					<p class="cte" id="sfx4">٩( ๑`ȏ´๑ )۶</p>
+					<p class="ang" id="sfx5">໒( ᓀ ‸ ᓂ )७</p>
+					<p class="fat" id="sfx6"> ू(๑¯д¯๑)ू</p>
+				<ul>
+			</div>
+		</div>
+      </div>
+
+    </div><!-- /.container -->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-3.3.1.js" </script>
+    <script src="js/bootstrap.js"></script>
+	
+	<script>
+	var audio1 = document.getElementById("sound1");
+	var audio2 = document.getElementById("sound2");
+	var audio3 = document.getElementById("sound3");
+	var audio4 = document.getElementById("sound4");
+	var audio5 = document.getElementById("sound5");
+	var audio6 = document.getElementById("sound6");
+	var audio7 = document.getElementById("sound7");
+	
+	$("#sfx1").mouseenter(function() {
+	audio1.play();
+});
+	$("#sfx2").mouseenter(function() {
+	audio2.play();
+});
+	$("#sfx3").mouseenter(function() {
+	audio3.play();
+});
+	$("#sfx4").mouseenter(function() {
+	audio4.play();
+});
+	$("#sfx5").mouseenter(function() {
+	audio5.play();
+});
+	$("#sfx6").mouseenter(function() {
+	audio6.play();
+});
+	$("#sfx7").mouseenter(function() {
+	audio7.play();
+});
+    </script>
+  </body>
+</html>
